@@ -1,3 +1,18 @@
+/**
+ * @file kmp_string_matching.cpp
+ * @brief Implementation of the Knuth-Morris-Pratt (KMP) string matching algorithm
+ *
+ * @details
+ * The KMP algorithm improves the naive string matching method by avoiding unnecessary rechecking of characters.
+ * It uses a precomputed Longest Prefix Suffix (LPS) array to efficiently search for a pattern in a given text.
+ *
+ * Time Complexity: O(n + m), where n = length of text, m = length of pattern.
+ * Space Complexity: O(m), for the LPS array.
+ *
+ * @author YashAstro11
+ * @date 2025-04-13
+ */
+
 #include <iostream>
 #include <vector>
 using namespace std;
